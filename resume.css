@@ -1,0 +1,94 @@
+h2 {
+  font-family: 'BioRhyme', serif;
+}
+p {
+  font-family: 'Space Mono', monospace;
+}
+#welcome-section {
+  background-color: #69cdff;
+  height: 100vh;
+}
+#welcome {
+  padding-top: 55px;
+  padding-left: 15px;
+}
+#welcome-bar {
+  width: 100px;
+  background-color: #ff7669;
+}
+#welcome-border {
+  width: 100px;
+  height: 100vh;
+  background-color: #ff7669;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#about-me {
+  background-color: #ffc169;
+  border: 4px solid #ff7669;
+  margin-top: 175px;
+  box-shadow: 10px 10px 5px grey;
+  height: auto;
+}
+#about-me-text {
+  padding: 10px;
+}
+#silas-img {
+  border: 4px solid #ff7669;
+  z-index: 0;
+  box-shadow: 10px 10px 5px grey;
+  margin-left: 100px;
+}
+#projects {
+  background-color: #ffc169;
+  height: 100vh;
+}
+.projects-red {
+  background-color: red;
+}
+#project-text {
+  padding-top: 55px;
+  padding-left: 15px;
+}
+#welcome-project {
+  width: 100px;
+  height: 100vh;
+  background-color: #69cdff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#card-container {
+  width: auto;
+}
+.card {
+  display: inline-block;
+}
+}
+#project-cards {
+  width: vw100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#contact {
+  background-color: #ff7669;
+  height: 100vh;
+}
+#contact-text {
+  padding-top: 55px;
+  padding-left: 15px;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+  #projects {
+    background-color: orange;
+  }
+}

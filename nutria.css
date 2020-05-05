@@ -1,0 +1,47 @@
+body {
+  border: 4px solid black;
+  background-image: url('https://cdn.mos.cms.futurecdn.net/WUeLqptXtKCaYURJUXbTpG-970-80.jpg');
+  font-family: 'Permanent Marker', cursive;
+}
+h1 {
+  font-style: italic;
+  font-size: 2em;
+  text-align: center;
+}
+p {
+  font-weight: bold;
+  border: 10px solid;
+  border-radius: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: green;
+  padding: 10px;
+  opacity: 0.75;
+}
+form {
+  font-weight: bold;
+  border: 10px solid;
+  border-radius: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: green;
+  padding: 10px;
+  opacity: 0.75;
+}
+.form-propmt {
+  opacity: 0;
+}
+img {
+  border: 10px solid;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 4em;
+  text-decoration: underline;
+}
+#nutria-pic {
+  height: 33%;
+  width: 33%;
+  margin-left: 460px;
+}
